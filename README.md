@@ -9,4 +9,4 @@ Join the Nytra Discord server to see it deployed and get up to date:
 Note that a bot token is not included, please add one yourself by changing the TOKEN variable in the .env file.
 You need to go to the developer developer portal, creat a new application, and get your own bot token
 
-PLEASE NOTe THAT ALTHOUGH THIS BOT IS OPEN SOURCE, YOU CANNOT USE IT FOR COMMERCIAL PURPOSES :D
+PLEASE NOTE THAT ALTHOUGH THIS BOT IS OPEN SOURCE, YOU CANNOT USE IT FOR COMMERCIAL PURPOSES :D
