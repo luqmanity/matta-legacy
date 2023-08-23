@@ -9,6 +9,15 @@ from datetime import datetime
 from scripts.embed2 import Embed2
 from scripts.sysLog import sys_LOG
 
+print("""
+The Måtta Discord Bot
+
+GitHub:
+https://github.com/luqmanity/matta
+
+Join The Discord Server for support, updates, etc:
+https://discord.gg/7w8b6MMXBy""")
+
 load_dotenv()
 data = {
     "servers" : {}
@@ -20,6 +29,7 @@ if __name__ == "__main__":
 
     startup_time = time.time()
     #DATA UPDATE
+    #Nothing sus please frfr
     def data_Update():
         for guild in bot.guilds:
             data["servers"][guild.id] = {"name": guild.name, "membercount": guild.member_count, "members": {}, "channels":{}}

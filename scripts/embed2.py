@@ -1,6 +1,14 @@
 import discord
 from scripts.sysLog import sys_LOG
 
+#   Embed2 is designed to aid with the Embedding responses in Måtta
+#   Full support for all discord.Embed arguments, functions and parameters
+#   are coming soon.
+
+#   PLEASE TAKE NOTE THAT EMBED2 REQUIRES
+#   {embed variable}.Embed to call the discord Embed inside
+#   Otherwise, it'll return an error
+
 class Embed2():
     def __init__(self, ctx, title, description=None, color=None, log=None):
         self.Embed = discord.Embed(
