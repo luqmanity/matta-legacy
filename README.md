@@ -14,3 +14,5 @@ You need to go to the developer developer portal, create a new application, and 
 To add your own bot token, simply add a ".env" file in the matta folder with a TOKEN = (your key) contained inside.
 
 Commercial purposes is allowed, however, crediting is required.
+# Latest release
+[Click here](Release URL)
