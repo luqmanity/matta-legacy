@@ -22,4 +22,4 @@ The bot will not run if the `.env` is missing from the main directory.
 
 Commercial purposes is allowed, however, crediting is required.
 
-`/help` - Outputs the interactive help menu
+`/help` - Outputs the interactive help menu message in server
