@@ -86,14 +86,18 @@ Join our Discord Server for support, updates, and everything else:
     **AUTO-RESPONDERS**
     Messages that the bot will send after a trigger message is sent.""",
     color= discord.Color.from_rgb(204,204,255))
-                embed.add_field(title= "/autoresponder_add",  content="""
-Create a new autoresponder, simply add triggers and responders.""")
-                embed.add_field(title= "/autoresponder_toggle", content="""
-Toggles an existing autoresponder.""")
-                embed.add_field(title= "/autoresponder_edit", content="""
-Overwrites existing settings of an autoresponder""")
-                embed.add_field(title= "/autoresponder_delete", content= """
-Deletes an existing autoresponder. **CANNOT** be undone.""")
+                embed.add_field(
+                    title= "/autoresponder_add",  content="""
+                    Create a new autoresponder, simply add triggers and responders.""")
+                embed.add_field(
+                    title= "/autoresponder_toggle", content="""
+                    Toggles an existing autoresponder.""")
+                embed.add_field(
+                    title= "/autoresponder_edit", content="""
+                    Overwrites existing settings of an autoresponder""")
+                embed.add_field(
+                    title= "/autoresponder_delete", content= """
+                    Deletes an existing autoresponder. **CANNOT** be undone.""")
                 
                 embed.set_footer(text= "NY")
                 await interaction.response.edit_message(embed= embed.Embed)
