@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from discord.ui import Select, View
+from discord.ui import Select
 from scripts.embed2 import Embed2
 
 class Help(commands.Cog):
@@ -8,7 +8,7 @@ class Help(commands.Cog):
         self.bot = bot
 
     #/HELP COMMAND
-    @discord.slash_command(name= "help", description= "Get help from Regal")
+    @discord.slash_command(name= "help", description= f"Get help from Måtta")
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def help(self,ctx):
         embed = Embed2(ctx=ctx,
@@ -36,7 +36,12 @@ class Help(commands.Cog):
             discord.SelectOption(label= "General Settings", emoji= "⚙️")
         ])
         embed.set_footer("NY")
-        view = View()
+
+        class View(discord.ui.View):
+            async def on_timeout(self):
+                self.disable_all_items()
+
+        view = View(timeout=10)
 
         async def response(interaction):
             #HOME

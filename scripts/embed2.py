@@ -39,7 +39,7 @@ class Embed2():
     
     def set_footer(self, text):
         if text == "NY":
-            text = "Regal Discord Bot - Developed by Nytra-Designed."
+            text = "Måtta-based Discord Bot <> https://github.com/luqmanity/matta"
         self.Embed.set_footer(text= text)
 
     def set_image(self, url):
