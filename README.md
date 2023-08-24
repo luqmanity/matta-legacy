@@ -1,4 +1,4 @@
-# Måtta
+# Måtta (LEGACY)
 
 The Måtta Discord bot!
 
