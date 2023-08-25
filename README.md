@@ -1,6 +1,11 @@
 # Måtta (LEGACY)
+This is the legacy version of [Matta](https://github.com/luqmanity/matta).
+Måtta Legacy is no longer actively-developed, and is officially discontinued. Any bugs, problems
+and issues related will have little to no chance of being fixed or repaired.
+The new Måtta is a rewrite of this legacy repo, with cleaner code, improved simplicity and overall a 
+much better experience.
 
-The Måtta Discord bot!
+The Måtta (LEGACY) Discord bot!
 
 This bot is created for fun, with love and relentless effort and some uhh, late-night coding sessions lol.
 Please note that this bot uses `cogs`, which is a way for pycord projects to have commands in different files
